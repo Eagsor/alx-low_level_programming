@@ -17,6 +17,6 @@ void num(int r, int n);
 #include <stdio.h>
 #endif /* MAIN_H */
 int _putchar(char c);
-
+8-main.c
 
 
