@@ -29,5 +29,4 @@ void main(void)
 	hours++;
 	minutes = 0;
 }
-	return (0);
 }
