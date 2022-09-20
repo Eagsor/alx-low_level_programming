@@ -22,3 +22,4 @@ void print_rev(char *s)
 		putchar(s[num]);
 	}
 	putchar('\n');
+}
