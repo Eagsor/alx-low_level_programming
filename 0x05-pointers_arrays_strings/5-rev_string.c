@@ -5,6 +5,7 @@
  * print_rev -prints a string in reverse
  * @s: the value to print to stdout
  */
+
 void rev_string(char *s)
 {
 	int i, len;
