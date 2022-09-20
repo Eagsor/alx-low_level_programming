@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 
 /**
  * _strlen - Entry, count string function
@@ -12,7 +12,7 @@ int _strlen(char *s)
 {
 	int count = 0;
 
-	While(s[count])
+	while (s[count])
 	{
 		count++;
 	}
