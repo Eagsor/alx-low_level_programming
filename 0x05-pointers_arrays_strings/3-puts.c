@@ -5,8 +5,7 @@
  *@str: the string to print.
  * Return: void
  */
-
-void _puts(charb *str)
+void _puts(char *str)
 {
 	int num;
 
