@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <math.h>
+
 /**
- * main - generates keygen.
+ * main - print password
+ *
  * Return: 0 Always.
  */
 int main(void)
