@@ -1,4 +1,4 @@
-# define "main.h"
+#define "main.h"
 
 /**
  * _memcpy() function copies n bytes
