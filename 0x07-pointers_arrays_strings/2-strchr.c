@@ -6,18 +6,19 @@
  * The _strchr Returns a pointer to the first occurrence of the character
  * c in the string s, or NULL if the character is not found
  *
- * @s: The adress of the string to be printed
- * @c: The byte to be printed
- * Return: int i if successful if not return a NULL.
+ * @s: This is the input string
+ * @c:  This is the character
+ * Return: Return to the character found, if not return a NULL
  */
 
 char *_strchr(char *s, char c)
 {
 	for (; ; s++)
 	{
-		if (*s++ == c)
+		if (*s == c)
 			return (s);
-	}
 		if (*s == 0)
 			return (NULL);
+	}
+	return (NULL);
 }
