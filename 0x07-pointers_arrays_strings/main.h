@@ -1,9 +1,9 @@
-#ifndef MAIN_H
-#define MAIN_H
-
+#ifndef HEADER_FILE
+#define HEADER_FILE
 #include <stdio.h>
 #include <stddef.h>
 #include <string.h>
+int _putchar(char c);
 char _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
 char *_strchr(char *s, char c);
